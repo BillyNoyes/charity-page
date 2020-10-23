@@ -11,13 +11,15 @@
   align-items: center;
   justify-content: space-between;
   width: 80vw;
-  background-color: #eaedf2;
+  background-color: rgba(0, 0, 0, 0.1);
+  mix-blend-mode: lighten;
   padding: 20px;
 }
 
 .navbar__left {
   display: flex;
   align-items: center;
+  color: white !important;
 }
 
 .navbar__left > h1 {
